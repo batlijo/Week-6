@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Button Triggered Ajax</title>
+	<script src="http://code.jquery.com/jquery-2.1.2.3.min.js"></script>
+</head>
+<body>
+<button data-search="Arnold S."> ARNOLD </button>
+<button data-search="Samuel L. Jackson"> Samuel L. Jackson </button>
+<script type="text/javascript">
+	$("button").on("click",function()){
+		var x = $(this).data("search");
+		console.log(x);
+
+		var queryURL = "http//api.giphy.com/v1.gifs/search?q="+x+"api_key=dc6 <---WHERE DO YOU GET THIS API KEY FROM????
+		console.log(queryURL);
+		$.ajax((url:queryURL,method:"GET"))
+			.done(function(response)(
+				console.log(response);
+			})
+	})
+</script> 
+
+
+</body>
+</html>
