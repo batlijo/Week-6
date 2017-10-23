@@ -37,10 +37,21 @@ why not add an id tag? what does data-search tag do????
 	$("button").on("click",function(){
 		console.log("BUTTON CLICKED!")
 	})
+
 /* </script> the console log is to confirm that when button is clicked it was clicked aka that it works woooo
 JSON aka Javascript Object Notation: a way to represent data, it is a file format
 WHY DO WE USE JSON? Makes it readable to send data between servers back and forth
-Disadvantages of JSON:
+Disadvantages of JSON: a disadvantage to a 3rd party api
+deferred until promise is completed
+pause our gifs*
 WHAT JQUERY METHOD DO WE USE TO RETRIEVE DATA FROM A URL DATABASE? AJAX
 WHAT TWO PARAMETERS DO WE PASS INTO AJAX TO RETRIVE DATA ONLINE? URL AND GET METHOD
  
+
+
+
+
+
+
+
+*/
